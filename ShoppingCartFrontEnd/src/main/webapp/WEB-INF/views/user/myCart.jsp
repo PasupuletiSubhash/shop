@@ -18,7 +18,7 @@
 						<div class="h3">My Cart</span></div>
 					</div>
 					<div class="col-md-4">
-						<td><a href="myCart-deleteAll/${cart.user_id}" class="btn btn-danger">Delete All Products</a></td>
+						<td><a href="myCart-deleteAll/${cart.user_id}" class="btn btn-danger">Remove All Products</a></td>
 					</div>
 				</div>
 			</div>
@@ -27,6 +27,7 @@
 					<tr>
 						<td>Product</td>
 						<td>Date Added</td>
+						<td>Quantity</td>
 						<td>Price (Rs)</td>
 						<td>Action</td>
 					</tr>
@@ -36,7 +37,7 @@
 						<td>${cart.product_name}</td>
 						<td><fmt:formatDate pattern="dd/MM/yyyy" value="${cart.date_added}" /></td>
 						<td>${cart.price}</td>
-						<td><a href="myCart-delete/${cart.id}" class="btn btn-danger">Delete</a></td>
+						<td><a href="myCart-delete/${cart.id}" class="btn btn-danger">Remove</a></td>
 					</tr>
 				</c:forEach>
 				<hr />
