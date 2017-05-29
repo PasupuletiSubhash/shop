@@ -15,7 +15,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-						<div class="h3"> Cart</span></div>
+						<div class="h3">My Cart</span></div>
 					</div>
 					<div class="col-md-4">
 						<td><a href="myCart-deleteAll/${cart.user_id}" class="btn btn-danger">Remove All Products</a></td>
