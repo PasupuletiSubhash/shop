@@ -22,10 +22,10 @@ JDK 1.8
 Web Server supporting Servlets
 Apache Maven
 H2 database
-Modern web browser supporting HTML 5, CSS 3 and ECMAScript 6
+Modern web browser supporting HTML 5, CSS 3 
 Clone its backend project or else it will not work ! Important
 
-[Shopping website Backend ] 
+[Shopping website Backend ] https://github.com/udaykiran36/shop.git
 
 Configuration
 
